@@ -24,13 +24,13 @@ Use the Moodle plugin installer to put this plugin into the correct location. If
 <your-moodle-root>/availability/condition/xapiactivity
 ```
 
-The plugin has the following fields you need to set globally:
+The plugin has the following fields you need to set globally (via /admin/settings.php?section=availabilitysettingxapiactivity):
 
-**LRS Url**: The URL of your LRS, whcih might look like *https://cloud.scorm.com/lrs/57837584*
-**API Key**: The username or apikey for your LRS, which might look like *fds789dhj275hk4jf987*
-**API Secret**: The password or secret key for your LRS, which might look like *DUY%H#B@VD%#*
-**Authenication Method**: Only basic authentication is supported at this time. Most LRS's support BASIC auth.
-**Actor Lookup Field**: The field to match in the moodle user table to determine the actor
+* **LRS Url**: The URL of your LRS, whcih might look like *https://cloud.scorm.com/lrs/57837584*
+* **API Key**: The username or apikey for your LRS, which might look like *fds789dhj275hk4jf987*
+* **API Secret**: The password or secret key for your LRS, which might look like *DUY%H#B@VD%#*
+* **Authenication Method**: Only basic authentication is supported at this time. Most LRS's support BASIC auth.
+* **Actor Lookup Field**: The field to match in the moodle user table to determine the actor
 
 Using the plugin
 ----------------
