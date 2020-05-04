@@ -1,0 +1,10 @@
+{
+  "name": "moodle-availability_xapiactivity-form",
+  "builds": {
+    "moodle-availability_xapiactivity-form": {
+      "jsfiles": [
+        "form.js"
+      ]
+    }
+  }
+}
