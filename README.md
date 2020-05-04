@@ -46,6 +46,15 @@ To set up the restiction, use the usual activity conditions editor. You can read
 2. Click the *xAPI lookup* button
 3. Fill in the *Verb*, *Activity Url* and *Condition Label* fields. The Condition Label is the name or description of the activity that you want to show to users in Moodle. It doesn't have to be the same as the acvitity name in your LRS.
 
+Example LRS statement
+---------------------
+
+You can see an example page which sends a statement to a LRS here:
+
+https://gist.github.com/frumbert/11b31e67b78c4c37f56dd7540bce5715
+
+You'll need to modify lines `657` and `658` to enter your LRS details. You can sign up for a free LRS at https://scormcloud.com/ or https://lrs.io/
+
 Licence
 -------
 GPL3
